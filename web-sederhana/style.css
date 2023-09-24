@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 16px/28px ubuntu, sans-serif;
+  background-color: #a1d6e2;
+}
+
+/*.top-bar {
+  position: fixed;
+  top: 0;
+  left: 195px;
+  right: 195px;
+  height: 40px;
+  background-color: #f700ff;
+  border-radius: 0 0 5px 5px;
+  z-index: 9999;
+}*/
+
+.container {
+  width: 960px;
+  margin: 80px auto;
+  margin-bottom: 0;
+  background-color: #ffcccc;
+}
+
+.container .sosmed {
+  background-color: white;
+  height: 180px;
+  width: 70px;
+  position: fixed;
+  right: 115px;
+  bottom: -5px;
+  border: 5px solid #ffcccc;
+  border-radius: 50px 50px 0 0;
+}
+
+.container .sosmed .pesan1 {
+  width: 50px;
+  background-image: url(img/icon.gif);
+  background-repeat: no-repeat;
+  right: 9px;
+  bottom: 5px;
+  height: 50px;
+  position: absolute;
+}
+.container .sosmed .pesan2 {
+  width: 50px;
+  background-image: url(img/icon2.gif);
+  /* background-repeat: no-repeat; */
+  right: 9px;
+  bottom: 60px;
+  height: 50px;
+  position: absolute;
+}
+.container .sosmed .pesan3 {
+  width: 50px;
+  background-image: url(img/icon3.gif);
+  /* background-repeat: no-repeat; */
+  right: 9px;
+  bottom: 115px;
+  height: 50px;
+  position: absolute;
+}
+
+.header {
+  padding: 20px 20px 10px;
+  background-color: #fdeaff;
+  margin: 0 5px 5px 5px;
+  border-radius: 5px;
+}
+
+.header h1 {
+  font-size: 45px;
+  color: #bd000d;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 5px;
+  border-color: rgb(0, 180, 252);
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(0, 0, 82);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header a:hover {
+  color: #ff004c;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(img/bg.jpeg);
+  background-size: cover;
+  background-position: 0 -100px;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 20px;
+  color: rgb(0, 0, 82);
+  width: 600px;
+  box-sizing: border-box;
+  float: left;
+  /* padding: 20px 20px 10px; */
+  background-color: #f6ffce;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.main .penulis {
+  font-size: 13px;
+}
+
+.main a {
+  text-decoration: none;
+  color: #ff404c;
+}
+
+.main p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.content .main h2 {
+  font-size: 20px;
+  /* text-align: center; */
+  /* padding-bottom: 0px; */
+}
+
+.content .rekomendasi {
+  font-size: 20px;
+  text-align: center;
+  /* padding-bottom: 10px; */
+  color: rgb(0, 0, 82);
+}
+
+.sidebar1,
+.sidebar2,
+.sidebar3,
+.sidebar4 {
+  width: 300px;
+  float: right;
+
+  /* padding: 20px 20px 10px; */
+  margin: 5px;
+}
+
+.sidebar1 {
+  /* background-color: #ffb3e6; */
+  border-radius: 5px;
+  padding: 20px 20px 20px 5px;
+}
+
+/* profil */
+
+.sidebar1 h3 {
+  font-weight: bold;
+  color: rgb(0, 0, 82);
+  padding-bottom: 13px;
+}
+
+.sidebar1 img {
+  width: 70px;
+  float: left;
+  padding-right: 10px;
+}
+
+.sidebar1 p {
+  text-align: justify;
+  color: rgb(0, 0, 82);
+  font-size: 15px;
+}
+
+/* komen */
+
+.sidebar2 img {
+  width: 250px;
+  /* float: left; */
+  /* padding-left: 22px; */
+  border-radius: 10px;
+  /* border: 10px solid black; */
+}
+
+.sidebar2 p {
+  /* text-align: justify; */
+  color: rgb(0, 0, 82);
+  font-size: 15px;
+  padding-left: 75px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* artikel lain */
+
+.sidebar3 .artikel-lain img {
+  width: 250px;
+
+  /* padding-left: 22px; */
+  border-radius: 10px;
+}
+
+.sidebar3 p {
+  /* text-align: justify; */
+  color: rgb(0, 0, 82);
+  font-size: 15px;
+  padding-left: 85px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* sidebar 4 */
+.sidebar4 .rating {
+  background-color: rgb(83, 83, 201);
+  height: 59px;
+  width: 300px;
+  float: left;
+  /* padding-right: 0px; */
+  margin-left: -23px;
+  border-radius: 5px;
+}
+
+.sidebar4 .rating p {
+  padding: 17px 10px 10px 10px;
+  text-align: center;
+  color: #f1f1f2;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #ff004c;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  border-top: 4px solid #a70032;
+}
+
+.footer .copy {
+  color: #f1f1f2;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(0, 0, 82);
+}
+
+/* ini adalah clear fix */
+
+.cf:before,
+.cf:after {
+  content: ' '; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* .cf {
+  *zoom: 1;
+} */
